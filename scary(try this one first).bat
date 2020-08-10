@@ -4,7 +4,7 @@ echo I know where you live
 echo I will find you 
 echo You can run
 echo But you cannot hide
-shutdown -s -t 10 /c "Do you not recognize me? Do not fear me. I am not to blame for your insanity, for I am your salvation. -the darkness"
+shutdown -s -t 10 /c "Do you not recognize me? Do not fear me. I am not to blame for your insanity, for I am your salvation. -The Darkness"
 set /p Secure=
 if %Secure%==yes goto Secure
 if %Secure%==no goto NotSecure
